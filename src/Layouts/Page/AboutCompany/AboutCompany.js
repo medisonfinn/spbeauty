@@ -6,10 +6,12 @@ function AboutCompany() {
         <div>
             <Heading/> {/* Заголовок и кнопка справа */}
             <div className='d-flex flex-row mt-5'>
+                <div className='<col flex-grow-1'>
                 <General/>  {/* Основная информация вроде названия, типа и телефона */}
-                <div className='<col flex-grow-1'></div>
+                </div>
+                <div className='col flex-grow-1 style'>
                 <Addresses/> {/* Список доступных адресов заведений */}
-                <div className='col flex-grow-1'></div>
+                </div>
             </div>
         </div>
     );
