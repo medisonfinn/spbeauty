@@ -3,7 +3,7 @@ import General from "./Components/General/General";
 import Addresses from "./Components/Addresses/Addresses";
 function AboutCompany() {
     return (
-        <div>
+        <div className='px-5 pt-3 mx-3'>
             <Heading/> {/* Заголовок и кнопка справа */}
             <div className='d-flex flex-row mt-5'>
                 <div className='<col flex-grow-1'>
