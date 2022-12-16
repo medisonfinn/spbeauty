@@ -12,11 +12,12 @@ function SecondaryButton(props) {
         color: #64748B;
         &:hover {
             background: #white;
-            opacity: #0.8;
+            opacity: 0.8;
+            border: none;
         }
         &:active {
             background: #white;
-            opacity: #0.6;
+            opacity: 0.6;
         }
     `;
     return (

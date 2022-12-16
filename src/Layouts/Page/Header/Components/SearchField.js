@@ -20,6 +20,7 @@ const Input = styled.input`
     }
     &:focus {
         background: F8FAFC;
+        color: #0F172A;
     }
 `;
 
